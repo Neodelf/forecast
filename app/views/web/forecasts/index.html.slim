@@ -1,0 +1,15 @@
+.container
+  .row.justify-content-center
+    .col-md-6
+      h1
+        = t('.title')
+      = form_tag forecasts_path, method: :post, class: 'mt-4' do
+        .form-group
+          = text_field_tag :zip_code, params[:zip_code], placeholder: t('.form.zipcode'), class: 'form-control'
+        = submit_tag t('.form.submit'), class: 'btn btn-primary mt-3'
+
+      .col-md-2
+        .alert.alert-info.d-none.text-center
+          = t('.cached')
+      .mt-4
+        .forecast-results

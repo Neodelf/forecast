@@ -1,0 +1,43 @@
+require:
+  - rubocop-rspec
+  - rubocop-rails
+
+AllCops:
+  TargetRubyVersion: 3.2.2
+  NewCops: enable
+
+Metrics/BlockLength:
+  AllowedMethods: ['describe', 'context']
+
+Lint/NoReturnInBeginEndBlocks:
+  Enabled: false
+
+Metrics/ParameterLists:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Lint/EmptyBlock:
+  Enabled: false
+
+RSpec/NamedSubject:
+  Enabled: false
+
+RSpec/VerifiedDoubles:
+  Enabled: false
+
+Style/OptionalBooleanParameter:
+  Enabled: false
+
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+RSpec/NestedGroups:
+  Max: 4

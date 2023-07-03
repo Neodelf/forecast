@@ -1,0 +1,16 @@
+en:
+  web:
+    layouts:
+      application:
+        title: Forecast
+    forecasts:
+      index:
+        title: Weather Forecast
+        cached: cached
+        form:
+          zipcode: Enter zip code
+          submit: Get forecast
+    html_formatter:
+      forecast_html: '<p><strong>TempF: </strong>%{temp_f}</p>'
+      error_html: '<p><strong>Errors: </strong>%{data}</p>'
+      processing_html: '<p><strong>Processing...</strong></p>'
