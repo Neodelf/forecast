@@ -21,7 +21,7 @@ result is pulled from cache.
 
 ### High level system design
 
-
+<img width="536" alt="Screenshot 2023-10-27 at 15 35 22" src="https://github.com/Neodelf/forecast/assets/2521090/832f933f-4f0b-4afc-a0bc-5fa322d78c14">
 
 ### Compliance with the functional requirements
 
@@ -91,4 +91,5 @@ extensive test coverage ensures that the application's functionality is thorough
 of introducing bugs and providing confidence in the reliability of the system. The comprehensive test suite
 serves as a safety net, enabling developers to make changes and refactor code with confidence, knowing that
 they can catch regressions through automated tests.
+<img width="803" alt="Screenshot 2023-10-27 at 11 44 52" src="https://github.com/Neodelf/forecast/assets/2521090/7a6bebc9-939b-4910-bcc9-4680e890e331">
 
